@@ -1,4 +1,4 @@
-CC=g++
+CC=nvcc
 
 all: obj
 	$(CC) --link *.o -o dmvis
@@ -6,6 +6,7 @@ all: obj
 
 obj:
 	$(CC) -c *.cpp    
+	$(CC) -c *.cu
 
 clean:
 	rm -f *.o
