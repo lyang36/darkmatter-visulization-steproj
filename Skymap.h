@@ -5,7 +5,7 @@
 #ifndef __LY__SKYMAP__
 #define __LY__SKYMAP__
 #include <string>
-#include <Parameter.h>
+#include "Parameter.h"
 #include "types.h"
 using namespace std;
 
