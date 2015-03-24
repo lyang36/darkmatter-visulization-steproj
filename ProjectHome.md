@@ -1,0 +1,1 @@
+By using of GPU technology and stereographic projection to produce a all skymap
